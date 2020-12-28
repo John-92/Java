@@ -13,13 +13,15 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+
 import javax.imageio.ImageIO;
 
 /**
  * 
  * @author geekgao
- * ¹¤¾ßÀà
- * ¶ÁÈëÍ¼Æ¬,¶ÁÈ¡ÎÄ¼şµÈ
+ * å·¥å…·ç±»
+ *ä½ å¥½
+ * è¯»å…¥å›¾ç‰‡,è¯»å–æ–‡ä»¶ç­‰
  *
  */
 public class GuideUtil {
@@ -30,7 +32,7 @@ public class GuideUtil {
      * 
      * @param path
      * @return
-     * ¶ÁÈëÍ¼Æ¬
+     * è¯»å…¥å›¾ç‰‡
      */
     public static Image getImage(String path) {
         URL u = GuideUtil.class.getClassLoader().getResource(path);
@@ -49,7 +51,7 @@ public class GuideUtil {
      * 
      * @param path
      * @return
-     * ¶ÁÈë½ÚµãĞÅÏ¢
+     * è¯»å…¥èŠ‚ç‚¹ä¿¡æ¯
      */
     public static Map<Integer,Vertex> getVertex(String path) {
     	Map<Integer,Vertex> map = new HashMap<Integer, Vertex>();
